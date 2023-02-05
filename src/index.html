@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Test task</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Задание</h1>
+        <p class="p-block">
+            <span>Распределите задачи по соответствующим уровням категорийных менеджеров.</span><br>
+            <span class="p-block_sec">Вы можете менять порядок блоков и после их перемещения</span>
+        </p>
+        <div class="circle-btn abs-circle"><img src="./assets/arrow.svg" alt="arrow" draggable="false"></div>
+        <div class="blocks">
+            <div class="block">
+                <p class="block-header">Руководители отдела сопутствующих товаров <br> и услуг (ОСТиУ)</p>
+                <div class="block-block">
+                    <div class="drag-n-drop-field"></div>
+                    <div class="drag-n-drop-field"></div>
+                    <div class="drag-n-drop-field"></div>
+                </div>
+            </div><div class="block">
+                <p class="block-header">Категорийные менеджеры, менеджеры товарных <br> категорий ОСТиУ ОГ НПО</p>
+                <div class="block-block">
+                    <div class="drag-n-drop-field"></div>
+                    <div class="drag-n-drop-field"></div>
+                    <div class="drag-n-drop-field"></div>
+                </div>
+            </div><div class="block">
+                <p class="block-header p3">Сотрудники АЗК</p>
+                <div class="block-block">
+                    <div class="drag-n-drop-field"></div>
+                    <div class="drag-n-drop-field"></div>
+                    <div class="drag-n-drop-field"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-blocks-line">
+            <div class="first-block">
+                <div class="circle-btn"><img src="./assets/arrow.svg" alt="arrow" draggable="false"></div>
+                <div class="center-num">1/23</div>
+                <div class="circle-btn"><img src="./assets/arrow.svg" alt="arrow" class="right-arrow" draggable="false"></div>
+            </div>
+            <div class="second-block">
+                <div class="drag-btn" draggable="true"></div>
+                <div class="drag-btn" draggable="true"></div>
+                <div class="drag-btn" draggable="true"></div>
+                <div class="drag-btn" draggable="true"></div>
+                <div class="drag-btn" draggable="true"></div>
+                <div class="drag-btn" draggable="true"></div>
+                <div class="drag-btn" draggable="true"></div>
+                <div class="drag-btn" draggable="true"></div>
+                <div class="drag-btn" draggable="true"></div>
+                <div class="exam-btn">Проверить</div>
+                <div class="exam-btn e-b-s">Попробовать еще раз</div>
+                <div class="result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
